@@ -8,9 +8,5 @@ E:\Systems\Mathematics\Mathematics.Application\bin\Debug\ExpressionEvaluator.dll
 E:\Systems\Mathematics\Mathematics.Application\bin\Debug\Antlr3.Runtime.pdb
 E:\Systems\Mathematics\Mathematics.Application\bin\Debug\AutoMapper.dll
 E:\Systems\Mathematics\Mathematics.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
-E:\Systems\Mathematics\Mathematics.Application\bin\Debug\Ninject.dll
-E:\Systems\Mathematics\Mathematics.Application\bin\Debug\Ninject.Web.Common.dll
 E:\Systems\Mathematics\Mathematics.Application\bin\Debug\WebActivatorEx.dll
 E:\Systems\Mathematics\Mathematics.Application\bin\Debug\AutoMapper.xml
-E:\Systems\Mathematics\Mathematics.Application\bin\Debug\Ninject.xml
-E:\Systems\Mathematics\Mathematics.Application\bin\Debug\Ninject.Web.Common.xml

@@ -92,3 +92,5 @@ E:\Systems\Mathematics\Mathematics.Web\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Systems\Mathematics\Mathematics.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Systems\Mathematics\Mathematics.Web\obj\Debug\Mathematics.Web.dll
 E:\Systems\Mathematics\Mathematics.Web\obj\Debug\Mathematics.Web.pdb
+E:\Systems\Mathematics\Mathematics.Web\bin\Ninject.Web.Mvc.dll
+E:\Systems\Mathematics\Mathematics.Web\bin\Ninject.Web.Mvc.xml

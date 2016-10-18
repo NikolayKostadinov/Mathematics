@@ -11,9 +11,3 @@ E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Antlr3.Runtime.dll
 E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Antlr3.Runtime.pdb
 E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\AutoMapper.dll
 E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\AutoMapper.xml
-E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\WebActivatorEx.dll
-E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Ninject.Web.Common.dll
-E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Ninject.dll
-E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Microsoft.Web.Infrastructure.dll
-E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Ninject.Web.Common.xml
-E:\Systems\Mathematics\Mathematics.ConsoleApp\bin\Debug\Ninject.xml

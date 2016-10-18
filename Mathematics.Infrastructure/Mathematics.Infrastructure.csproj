@@ -88,6 +88,10 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Chart\ChartViewModel.cs" />
@@ -116,12 +120,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Constants\CollectingProductionDataSystem.Constants\CollectingProductionDataSystem.Constants.csproj">
-      <Project>{21b90cc4-73cc-4c1a-a2e3-fb6c7278beb9}</Project>
-      <Name>CollectingProductionDataSystem.Constants</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

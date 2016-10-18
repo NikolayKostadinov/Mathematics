@@ -66,7 +66,8 @@ namespace Mathematics.Web.App_Start
         {
             kernel.Bind<ICalculatorService>().To<CalculatorService>();
             kernel.Bind<IEquationGeneratorService>().To<EquationGeneratorService>();
-            kernel.Bind<IRandomGenerator>().To<RandomGenerator>();
+            kernel.Bind<IRandomGenerator>().ToMethod(context => RandomGenerator.GetRandomGenerator).InSingletonScope(); ;
+
         }
     }
 }
