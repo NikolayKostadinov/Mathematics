@@ -1,0 +1,11 @@
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\Mathematics.Infrastructure.dll.config
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\Mathematics.Infrastructure.dll
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\Mathematics.Infrastructure.pdb
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\AutoMapper.dll
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\System.Web.Razor.dll
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\AutoMapper.xml
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.xml
+E:\Systems\Mathematics\Mathematics.Infrastructure\bin\Debug\System.Web.Razor.xml
+E:\Systems\Mathematics\Mathematics.Infrastructure\obj\Debug\Mathematics.Infrastructure.dll
+E:\Systems\Mathematics\Mathematics.Infrastructure\obj\Debug\Mathematics.Infrastructure.pdb
