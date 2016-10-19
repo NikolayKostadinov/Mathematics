@@ -9,6 +9,7 @@ namespace Mathematics.Web.Models
     #region Usings
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     using System.Linq;
     using System.Text;
     using System.Web;
@@ -22,11 +23,18 @@ namespace Mathematics.Web.Models
     /// </summary>
     public class EquationViewModel:IMapFrom<Equation>
     {
-        public List<EquationMember> Members { get; set; }
+        //[UIHint("ListOfEquationModels")]
+        public List<EquationMemberViewModel> Members { get; set; }
 
         public int Result { get; set; }
         public int UnknownPosition { get; set; }
         public UnknownType? UnknownTypeProp { get; set; }
+
+        public bool? IsAnsverCorrect { get; set; }
+
+        public string CorrectAnswer { get; set; }
+
+        public string Answer{ get; set; }
 
 
         public override string ToString()

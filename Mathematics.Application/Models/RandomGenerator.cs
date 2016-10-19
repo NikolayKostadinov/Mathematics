@@ -25,7 +25,6 @@ namespace Mathematics.Application.Models
     public class RandomGenerator : IRandomGenerator
     {
         private static readonly object lockObj = new object();
-        [ThreadStatic]
         private static Random random;
         private static RandomGenerator generator;
 

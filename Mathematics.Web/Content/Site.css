@@ -9,8 +9,8 @@
     padding-right: 15px;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
 */
 .dl-horizontal dt {
     white-space: normal;
@@ -21,4 +21,89 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.worksheet {
+    margin-top: 10px;
+    height: 909px;
+    width: 755px;
+    background-image: url('images/Sqire.png');
+    background-size: 100% 30px;
+    -ms-background-repeat: repeat-y;
+    background-repeat: repeat-y;
+    padding-left: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px #CCCCCC;
+}
+
+div.squire {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    margin-left: 1.5px;
+    margin-right: -6.6px;
+}
+
+span.squire {
+    font-size: 28px;
+    margin: 0;
+    line-height: 30px;
+    width: 30px;
+}
+
+div.equation {
+    margin-bottom: 29px;
+}
+
+
+/* Chrome, Safari, AND NOW ALSO the Edge Browser and Firefox */
+@media and (-webkit-min-device-pixel-ratio:0) {
+    div.equation {
+        margin-bottom: 28px;
+    }
+
+    div.squire {
+        margin-right: -6.5px;
+    }
+}
+
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    div.equation {
+        margin-bottom: 28px;
+    }
+
+    div.squire {
+        margin-right: -6.5px;
+    }
+}
+
+/* Chrome 22-28 */
+@media screen and(-webkit-min-device-pixel-ratio:0) {
+    div.equation {
+        -chrome-: only(;
+        margin-bottom: 28px;
+        );
+    }
+
+    div.squire {
+        -chrome-: only(;
+        margin-right: -6.5px;
+        );
+    }
+}
+
+
+input.unknown-editor {
+    font-size: 28px;
+    margin: 0;
+    line-height: 30px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid black;
+    text-align: center;
 }
