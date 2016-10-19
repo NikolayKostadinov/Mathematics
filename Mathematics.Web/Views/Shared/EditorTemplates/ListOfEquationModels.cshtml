@@ -1,0 +1,5 @@
+﻿@model IEnumerable<Mathematics.Web.Models.EquationMemberViewModel>
+@foreach (var member in Model)
+{
+  @Html.EditorFor(m=>member)
+}

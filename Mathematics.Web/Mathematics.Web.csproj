@@ -234,6 +234,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\ok.png" />
     <Content Include="Content\images\Sqire.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -296,6 +297,7 @@
     <Content Include="Views\Shared\EditorTemplates\EquationViewModel.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\EquationMemberViewModel.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\ListOfEquationModels.cshtml" />
+    <Content Include="Views\Home\IndexResult.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

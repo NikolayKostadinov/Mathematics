@@ -1,0 +1,25 @@
+﻿@model Mathematics.Web.Models.EquationViewModel
+
+<div class="equation">
+    @Html.EditorFor(m => m.Members, new { htmlAttributes = new { style = "display:none;" }})
+    @Html.HiddenFor(m => m.Result)
+    @Html.HiddenFor(m => m.UnknownPosition)
+    @Html.HiddenFor(m => m.UnknownTypeProp)
+
+    @foreach (char character in Model.ToString())
+    {
+        if (character != '?')
+        {
+            <div class="squire">
+                <span class="squire">@character</span>
+            </div>
+        }
+        else
+        {
+            <div class="squire">
+                @Html.EditorFor(m => m.Answer, new {htmlAttributes = new {@class = "unknown-editor"}})
+            </div>
+        }
+    }
+</div>
+
